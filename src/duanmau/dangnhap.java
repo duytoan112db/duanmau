@@ -22,6 +22,7 @@ public class dangnhap extends javax.swing.JDialog {
     public dangnhap(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        System.out.println("123");
     }
     
     nhanviendao dao = new nhanviendao();
